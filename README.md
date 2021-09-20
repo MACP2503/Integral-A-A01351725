@@ -1,4 +1,4 @@
-# Aplicación de la ecuación de Harris-Benedict para el cálculo de consumo calórico diario individual
+# Aplicación de la ecuación de Harris-Benedict para el cálculo del consumo calórico diario individual
 El proyecto toma como base el contenido teórico de: 
 
 "Juan Antonio Pascual. (2018, August 11). Con esta fórmula sabrás cuántas calorías debes comer al día para adelgazar. Retrieved September 20, 2021, from ComputerHoy website: https://computerhoy.com/noticias/life/esta-formula-te-dice-cuantas-calorias-debes-comer-dia-adelgazar-286837" 
