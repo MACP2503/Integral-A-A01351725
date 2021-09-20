@@ -1,4 +1,3 @@
-http://www.scymed.com/es/smnxpn/pnfdd219.htm
 # Aplicación de la ecuación de Harris-Benedict para el cálculo de consumo calórico diario individual
 El proyecto toma como base el contenido teórico de: 
 
