@@ -2,6 +2,7 @@
 El proyecto toma como base el contenido teórico de: 
 
 "Juan Antonio Pascual. (2018, August 11). Con esta fórmula sabrás cuántas calorías debes comer al día para adelgazar. Retrieved September 20, 2021, from ComputerHoy website: https://computerhoy.com/noticias/life/esta-formula-te-dice-cuantas-calorias-debes-comer-dia-adelgazar-286837" 
+
 Asimismo, toma la aplicación práctica ofrecida por:
 
 "Harris Benedict Ecuación :: MediCalculator ::: ScyMed ::: (2021). Retrieved September 20, 2021, from Scymed.com website: http://www.scymed.com/es/smnxpn/pnfdd219.htm"
