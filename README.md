@@ -16,6 +16,7 @@ Esto con la finalidad de crear, por medio del csv anexado y la información brin
 Disponible en el Avance 2
 
 ### Selecciona un algoritmo de ordenamiento adecuado al problema
+Se utilizó Selection Sort en los ejemplos solicitados ya que, tomado de la referencia "When to use each Sorting Algorithm - GeeksforGeeks. (2020, May 20). Retrieved September 20, 2021, from GeeksforGeeks website: https://www.geeksforgeeks.org/when-to-use-each-sorting-algorithms/", Selection Sort es muy propio para listas cortas con digitos sencillos, su complejidad espacial es O(1) y su complejidad de tiempo es O(n*n), haciéndolo excelente para una lista simple con un par de nombres y números, su utilidad es muy entendible y propia para comprender y futuramente progresar en los algoritmnos de "sorting" y perfecto para trabajar con uso de memoria limitada gracias a su habilidad para minimizar los intercambios.
 
 ### Usa un árbol adecuado para resolver un problema
 
@@ -25,22 +26,22 @@ Disponible en el Avance 3
 
 ### Presenta Casos de Prueba correctos y completos para todas las funciones y procedimientos del programa,
 
-Disponible en el Avance 2
+Disponible en el Avance 3
 
 ### Hace un análisis de complejidad correcto y completo para todo el programa y sus compenetes,
 
-Disponible en el Avance 2
+Disponible en el Avance 3
 
 
 ## SICT0303B: Implementa acciones científicas 
 
 ### Implementa mecanismos para consultar información de las estructuras correctos y útiles dentro de un programa.
 
-Disponible en el Avance 2
+Disponible en el Avance 3
 
 ### Implementa mecanismos de lectura de archivos correctos y útiles dentro de un programa. Usar de manera
 
-Disponible en el Avance 2
+Disponible en el Avance 3
 
 ### Implementa mecanismos de escritura de archivos correctos y útiles dentro de un programa. Usar de manera
-Disponible en el Avance 2
+Disponible en el Avance 3
