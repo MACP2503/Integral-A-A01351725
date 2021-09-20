@@ -13,37 +13,34 @@ Esto con la finalidad de crear, por medio del csv anexado y la información brin
 
 ### Selecciona y usa una estructura lineal adecuada al problema
 
+Disponible en el Avance 2
+
 ### Selecciona un algoritmo de ordenamiento adecuado al problema
 
 ### Usa un árbol adecuado para resolver un problema
+
+Disponible en el Avance 3
 
 ## SICT0301B: Evalúa los componentes
 
 ### Presenta Casos de Prueba correctos y completos para todas las funciones y procedimientos del programa,
 
-
+Disponible en el Avance 2
 
 ### Hace un análisis de complejidad correcto y completo para todo el programa y sus compenetes,
 
-#### lista de medicinas
-
-
-
-#### ordenamiento de medicinas
-
-
-
-#### uso de árbol
+Disponible en el Avance 2
 
 
 ## SICT0303B: Implementa acciones científicas 
 
 ### Implementa mecanismos para consultar información de las estructuras correctos y útiles dentro de un programa.
 
-
+Disponible en el Avance 2
 
 ### Implementa mecanismos de lectura de archivos correctos y útiles dentro de un programa. Usar de manera
 
+Disponible en el Avance 2
 
 ### Implementa mecanismos de escritura de archivos correctos y útiles dentro de un programa. Usar de manera
-
+Disponible en el Avance 2
