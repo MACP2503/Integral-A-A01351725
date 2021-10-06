@@ -12,8 +12,7 @@ Esto con la finalidad de crear, por medio del csv anexado y la información brin
 ## SICT0302B: Toma decisiones 
 
 ### Selecciona y usa una estructura lineal adecuada al problema
-
-Disponible en el Avance 2
+Se seleccionó la lista doblemente enlazada ya que el manejo de eliminación, modificación y adición de citas manejando archivos txt resulta muy práctico cuando se manejan los valores numéricos por medio de nodos accesibles en todas ambas direcciones, cada nodo representando una cita distinta. Asimismo, que esté doblemente enlazada va a facilitar futuros ordenamientos y posibles adiciones al proyecto que permitan al nutricionista posicionar sus citas a la medida y mantener un control de su posterior trabajo. Para finalizar, la complejidad que va de O(1) a O(n) de los métodos anexados en la estructura lineal evita complicaciones a la hora de realizar operaciones y mantiene al programa simplificado a la hora de tomar memoria del equipo.
 
 ### Selecciona un algoritmo de ordenamiento adecuado al problema
 Se utilizó Selection Sort en los ejemplos solicitados ya que, tomado de la referencia "When to use each Sorting Algorithm - GeeksforGeeks. (2020, May 20). Retrieved September 20, 2021, from GeeksforGeeks website: https://www.geeksforgeeks.org/when-to-use-each-sorting-algorithms/", Selection Sort es muy propio para listas cortas con digitos sencillos, su complejidad espacial es O(1) y su complejidad de tiempo es O(n*n), haciéndolo excelente para una lista simple con un par de nombres y números, su utilidad es muy entendible y propia para comprender y futuramente progresar en los algoritmnos de "sorting" y perfecto para trabajar con uso de memoria limitada gracias a su habilidad para minimizar los intercambios.
