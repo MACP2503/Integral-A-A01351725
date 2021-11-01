@@ -4,9 +4,12 @@
 #include <string>
 #include <vector>
 #include <cstdlib>
+#include <cstring>
+#include <random>
 #include <math.h>
 #include <algorithm>
 #include "dlist.h"
+#include "heap.h"
 #define NOMBRE_EXCEL "Tabla_Harris-Benedict.csv"
 #define HORAS "horas.txt"
 #define DIAS "dias.txt"
@@ -301,6 +304,39 @@ void lista(){
     file4.close();
     }
 }
+void presupuesto(){
+int pacientes;
+cout<<"Cuántos pacientes espera manejar en la semana: ";
+cin>>pacientes;
+
+Heap<int> heap(pacientes);
+int i=0;
+int costot = 0;
+int min = 0;
+int max = 0; 
+int costo=0;
+float presu;
+cout<<"¿Cuál es el rango de cobro por consulta?"<<endl;
+cout<<"Valor Mínimo: "<<endl;
+cin>>min;
+cout<<"Valor Máximo: "<<endl;
+cin>>min;
+while(i<pacientes){
+  costo = rand()%(max-min+1)+min;
+  costo=costo-max;
+  heap.push(costo);
+  costot=costot+costo;
+  i++;
+}
+if(pacientes==0){
+  cout<<"No existen citas agendadas."<<endl;
+}
+else{
+  cout<<"Pacientes del 1 al "<<i<<": "<<endl;
+  heap.toString();
+}
+cout<<"Ganancias totales: "<<costot<<endl;
+}
 
 void imprimir(vector<vector<string>> vector_final){
 int i;
@@ -343,17 +379,19 @@ cout<<"Calorex"<<endl;
 cout<<"1: Ordena los pacientes por consumo calorico ascendente."<<endl;
 cout<<"2: Ordena los pacientes por orden alfabetico."<<endl;
 cout<<"3: Agenda citas en la lista."<<endl;
-cout<<"4: Salir."<<endl;
+cout<<"4: Presupuestos."<<endl;
+cout<<"5: Salir."<<endl;
 cout<<"Seleccione el numero de una opcion a ejecutar: "<<endl;
 cin>>sel;
 cout<<endl;
 
-while((sel<=0)||(sel>4)){
+while((sel<=0)||(sel>5)){
 cout<<"Seleccione un digito correcto."<<endl;
 cout<<"1: Ordena los pacientes por consumo calorico ascendente."<<endl;
 cout<<"2: Ordena los pacientes por orden alfabetico."<<endl;
 cout<<"3: Agenda citas en la lista."<<endl;
-cout<<"4: Salir."<<endl;
+cout<<"4: Presupuestos."<<endl;
+cout<<"5: Salir."<<endl;
 cout<<"Seleccione el numero de una opcion a ejecutar: "<<endl;
 cin>>sel;
 cout<<endl;
@@ -376,6 +414,11 @@ if (sel == 3){
 }
 
 if (sel == 4){
+    presupuesto();
+    seleccion(s);
+}
+
+if (sel == 5){
     cout<<"Muchas gracias por usar Calorex! Vuelva pronto!"<<endl;
 }
 
