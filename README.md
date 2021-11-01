@@ -25,22 +25,23 @@ Disponible en el Avance 3
 
 ### Presenta Casos de Prueba correctos y completos para todas las funciones y procedimientos del programa,
 
-Disponible en el Avance 3
+Se presentan casos de prueba en el archivo "Tabla_Harris-Benedict.csv" y y los archivos de días y horas en .txt. Estos pueden ser modificados al gusto del usuario para poder laborar de la manera en la que este lo desee. Se encuentran ligadas al funcionamiento de todas las estructuras de datos del programa.
 
-### Hace un análisis de complejidad correcto y completo para todo el programa y sus compenetes,
+### Hace un análisis de complejidad correcto y completo para todo el programa y sus componentes
 
-Disponible en el Avance 3
-
+El análisis de complejidad se encuentra escrito en cada una de las explicaciones de los algoritmos descritos anteriormente.
+Los demás detalles del programa, como los menús (principal y de citas) del programa, está basado en O(n) por su uso de recursión basado en el clic de un número.
 
 ## SICT0303B: Implementa acciones científicas 
 
 ### Implementa mecanismos para consultar información de las estructuras correctos y útiles dentro de un programa.
 
-Disponible en el Avance 3
+Este programa está completamente basado en la consulta y modificación de información. Un nutriólogo puede perfectamente acceder a los datos, imprimirlos gracias a su ordenamiento y disponer de ellos a su antojo. Asimismo, este posee menús que facilitan el acceso y modificación de los datos que van desde la creación de citas hasta modificación de los datos del paciente.
 
 ### Implementa mecanismos de lectura de archivos correctos y útiles dentro de un programa. Usar de manera
 
-Disponible en el Avance 3
+La lectura de los archivos tanto txt como el csv son perfectamente funcionales y útiles en el programa.
 
 ### Implementa mecanismos de escritura de archivos correctos y útiles dentro de un programa. Usar de manera
-Disponible en el Avance 3
+
+Se pueden escribir perfectamente las citas en los archivos txt, esto incluyendo sus datos en dos diferentes archivos con su posterior lectura correcta.
