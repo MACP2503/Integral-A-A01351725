@@ -19,7 +19,7 @@ Se utilizó Selection Sort en los ejemplos solicitados ya que, tomado de la refe
 
 ### Usa un árbol adecuado para resolver un problema
 
-Disponible en el Avance 3
+Implementación de un heap que permita guardar valores de cobro de las citas para calcular las ganancias semanales del trabajador. Este se basa en una complejidad de O(n) gracias a su dependencia de los pacientes esperados.
 
 ## SICT0301B: Evalúa los componentes
 
