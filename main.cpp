@@ -314,26 +314,27 @@ int i=0;
 int costot = 0;
 int min = 0;
 int max = 0; 
-int costo=0;
+int costo = 0;
 float presu;
 cout<<"¿Cuál es el rango de cobro por consulta?"<<endl;
 cout<<"Valor Mínimo: "<<endl;
 cin>>min;
 cout<<"Valor Máximo: "<<endl;
-cin>>min;
+cin>>max;
 while(i<pacientes){
-  costo = rand()%(max-min+1)+min;
-  costo=costo-max;
+  costo = rand()%(max-min + 1) + min;
   heap.push(costo);
   costot=costot+costo;
   i++;
 }
-if(pacientes==0){
+if(pacientes<=0){
   cout<<"No existen citas agendadas."<<endl;
 }
 else{
-  cout<<"Pacientes del 1 al "<<i<<": "<<endl;
-  heap.toString();
+  cout<<"Pacientes del 1 al "<<i<<": ";
+  string impr;
+  impr=heap.toString();
+  cout<<impr<<endl;
 }
 cout<<"Ganancias totales: "<<costot<<endl;
 }
@@ -342,30 +343,32 @@ void imprimir(vector<vector<string>> vector_final){
 int i;
 for(i=0;i<vector_final.size();i++){
     cout<<"----------------------------------------------------"<<endl;
+    string a;
     cout<<"Nombre del paciente: "<<vector_final[i][0]<<endl;
     cout<<"Sexo: "<<vector_final[i][1]<<endl;
     cout<<"Peso en kilogramos: "<<vector_final[i][2]<<endl;
     cout<<"Estatura en cm: "<<vector_final[i][3]<<endl;
     cout<<"Edad: "<<vector_final[i][4]<<endl;
     cout<<"Cantidad de ejercicio realizado: ";
+    a=vector_final[i][5][0];
 
-    if (vector_final[i][5]=="1"){
+    if (a=="1"){
     cout<<"Muy Poca o inexistente"<<endl;
     }
 
-    else if (vector_final[i][5]=="2"){
+    else if (a=="2"){
     cout<<"Ligera"<<endl;
     }
 
-    else if (vector_final[i][5]=="3"){
+    else if (a=="3"){
     cout<<"Moderada"<<endl;
     }
 
-    else if (vector_final[i][5]=="4"){
+    else if (a=="4"){
     cout<<"Alta"<<endl;
     }
 
-    else if (vector_final[i][5]=="5"){
+    else if (a=="5"){
     cout<<"Extrema"<<endl;
     }
 
@@ -373,6 +376,7 @@ for(i=0;i<vector_final.size();i++){
 }
     cout<<"----------------------------------------------------"<<endl<<endl;
 }
+
 void seleccion(vector<vector<string>> s){
 int sel;
 cout<<"Calorex"<<endl;
