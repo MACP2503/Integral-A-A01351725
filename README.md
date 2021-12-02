@@ -30,7 +30,7 @@ Se presentan casos de prueba en el archivo "Tabla_Harris-Benedict.csv" y y los a
 ### Hace un análisis de complejidad correcto y completo para todo el programa y sus componentes
 
 El análisis de complejidad se encuentra escrito en cada una de las explicaciones de los algoritmos descritos anteriormente.
-Los demás detalles del programa, como los menús (principal y de citas) del programa, está basado en O(n) por su uso de recursión basado en el clic de un número.
+Los demás detalles del programa, como los menús (principal y de citas) están basados en O(n) por su uso de recursión basado en el clic de un número que define la cantidad inespecífica de veces en las que un usuario requiera de su utilización.
 
 ## SICT0303B: Implementa acciones científicas 
 
@@ -45,3 +45,7 @@ La lectura de los archivos tanto txt como el csv son perfectamente funcionales y
 ### Implementa mecanismos de escritura de archivos correctos y útiles dentro de un programa. Usar de manera
 
 Se pueden escribir perfectamente las citas en los archivos txt, esto incluyendo sus datos en dos diferentes archivos con su posterior lectura correcta.
+
+## Actualización final
+-Se corrigieron los errores de funcionamiento del heap
+-Se actualizó el README para contener más documentación.
